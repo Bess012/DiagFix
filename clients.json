@@ -1,0 +1,122 @@
+{
+    "71345678": {
+        "problem": "Cable sectionne dans votre zone",
+        "severity": "critical",
+        "last_checked": "15/09/2025",
+        "bill_due": false
+    },
+    "71223344": {
+        "problem": "Debit instable",
+        "severity": "warning",
+        "last_checked": "15/09/2025",
+        "bill_due": false
+    },
+    "71445566": {
+        "problem": "Aucun probleme detecte",
+        "severity": "resolved",
+        "bill_due": false,
+        "last_checked": "15/09/2025"
+    },
+    "71778899": {
+        "problem": "Aucun probleme",
+        "severity": "critical",
+        "last_checked": "15/09/2025",
+        "bill_due": true
+    },
+    "71001122": {
+        "problem": "Routeur defectueux",
+        "severity": "critical",
+        "last_checked": "14/09/2025",
+        "bill_due": true
+    },
+    "71556677": {
+        "problem": "Signal faible",
+        "severity": "warning",
+        "last_checked": "16/09/2025",
+        "bill_due": false
+    },
+    "71889900": {
+        "problem": "Maintenance preventive",
+        "severity": "resolved",
+        "last_checked": "13/09/2025",
+        "bill_due": false
+    },
+    "71990011": {
+        "problem": "Panne generale secteur",
+        "severity": "critical",
+        "last_checked": "16/09/2025",
+        "bill_due": false
+    },
+    "71112233": {
+        "problem": "Configuration requise",
+        "severity": "warning",
+        "last_checked": "15/09/2025",
+        "bill_due": true
+    },
+    "71667788": {
+        "problem": "Fibre optique endommagee",
+        "severity": "critical",
+        "last_checked": "14/09/2025",
+        "bill_due": false
+    },
+    "72001122": {
+        "problem": "Debit lent",
+        "severity": "warning",
+        "last_checked": "16/09/2025",
+        "bill_due": false
+    },
+    "72112233": {
+        "problem": "Service optimal",
+        "severity": "resolved",
+        "last_checked": "15/09/2025",
+        "bill_due": false
+    },
+    "72223344": {
+        "problem": "Interruption frequente",
+        "severity": "critical",
+        "last_checked": "16/09/2025",
+        "bill_due": true
+    },
+    "72334455": {
+        "problem": "Mise a jour logicielle",
+        "severity": "warning",
+        "last_checked": "14/09/2025",
+        "bill_due": false
+    },
+    "72445566": {
+        "problem": "Coupure totale",
+        "severity": "critical",
+        "last_checked": "16/09/2025",
+        "bill_due": false
+    },
+    "72556677": {
+        "problem": "Performance normale",
+        "severity": "resolved",
+        "last_checked": "15/09/2025",
+        "bill_due": false
+    },
+    "72667788": {
+        "problem": "Antenne HS",
+        "severity": "critical",
+        "last_checked": "13/09/2025",
+        "bill_due": true
+    },
+    "72778899": {
+        "problem": "Bruit sur la ligne",
+        "severity": "warning",
+        "last_checked": "16/09/2025",
+        "bill_due": false
+    },
+    "72889900": {
+        "problem": "Service reactive",
+        "severity": "resolved",
+        "last_checked": "14/09/2025",
+        "bill_due": false
+    },
+    "72990011": {
+        "problem": "Surcharge reseau",
+        "severity": "warning",
+        "last_checked": "15/09/2025",
+        "bill_due": false
+    }
+}

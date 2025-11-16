@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiagFix-Tunisie Telecom</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/2.png') }}"
+</head>
+<body>
+    
+    <div class="tt-container">
+        <div class="tt-header">
+            <h1>DiagFix</h1>
+        </div>
+        <div class="tt-input-card">
+            <form id="check-form" onsubmit="event.preventDefault(); checkProblem();">
+                <label for="phone">Numéro de ligne fixe*</label>
+                <div class="input-group">
+                    <input type="text" id="phone" placeholder="Entrez votre numéro" required>
+                    <button id="checkButton" class="btn btn-primary" onclick="checkProblem()">Vérifier</button>
+<button id="newButton" class="btn btn-secondary" onclick="newCheck()" style="display: none;">NOUVEAU</button>
+                </div>
+            </form>
+        </div>
+        <div class="tt-results-card" id="results">
+            <div class="placeholder">
+                <img src="{{ url_for('static', filename='img/1.jpg') }}" alt="Placeholder">
+                <p> Détecter les problèmes</p>
+            </div>
+        </div>
+    </div>
+   
+
+<button id="adminToggleBtn" onclick="toggleAdminMode()" class="admin-toggle-btn">
+    🔓 Client
+</button>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
