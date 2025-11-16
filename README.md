@@ -1,2 +1,2 @@
 # DiagFix
-DiagFix est une application web intuitive avec Flask qui permet de diagnostiquer automatiquement les lignes fixes des clients du Tunisie Telecom.
+DiagFix est une application web intuitive avec Flask qui permet de diagnostiquer automatiquement les lignes fixes des clients du Tunisie Telecom.Le client doit saisir son numéro fixe et l'application va afficher une description claire.Les problèmes seront classés selon 3 niveaux d'urgence(élevée/moyenne/faible).Il ya 2 modes de fonctionnment: mode client(par défaut)et mode admin qu'est accessible avec un mot de passe.En mode admin, un tableau de bord sera affiché qui va classer les numéros par ordre selon la gravité avec un button réparer qui résolut le problème et met à jour le fichier JSON.
